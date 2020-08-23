@@ -10,8 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    let addition = Addition()
-    let comparision = Comparision()
     let perimeterCalculation = PerimeterCalculation()
     let arrays = Arrays()
     let strings = Strings()
