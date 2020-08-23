@@ -78,4 +78,11 @@ class Mathematics {
     func triArea(_ base: Int, _ height: Int) -> Int {
         return Int(base * height) / 2
     }
+    
+    //MARK:- Less Than 100?
+    
+    func lessThan(_ a: Int, _ b: Int) -> Bool {
+        return a + b < 100
+    }
+    
 }
