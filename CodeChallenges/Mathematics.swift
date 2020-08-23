@@ -91,4 +91,10 @@ class Mathematics {
         return people*each <= total
     }
     
+    //MARK:- Return the Next Number from the Integer Passed
+    
+    func addition(_ num: Int) -> Int {
+        return num + 1
+    }
+    
 }
