@@ -74,4 +74,69 @@ class Arrays {
         return arr.reversed()
     }
     
+    //Method:- 1
+    func reverse1(_ arr: [Int]) -> [Int] {
+        
+        var arr2 = [Int]()
+        
+        for char in arr.reversed() {
+            arr2.append(char)
+        }
+        return arr2
+    }
+    
+    //Method:- 2
+    func reverse2(_ arr: [Int]) -> [Int] {
+        return reverse(arr)
+    }
+    
+    //Method:- 3
+    func reverse3(_ arr: [Int]) -> [Int] {
+        var arr = arr
+        var i = 0, j = arr.count-1
+        while i <= j {
+            (arr[i], arr[j]) = (arr[j], arr[i])
+            i+=1; j-=1
+        }
+        return arr
+    }
+    
+    //Method:- 4
+    func reverse4(_ arr: [Int]) -> [Int] {
+        var reversedArray: [Int] = []
+        var start = arr.count - 1
+        while start >= 0 {
+            reversedArray.append(arr[start])
+            start = start - 1
+        }
+        return reversedArray
+    }
+    
+    //Method:- 5
+    func reverse5(_ arr: [Int]) -> [Int] {
+        return stride(from: arr.count - 1, through: 0, by: -1).reduce([Int](), { (array,index) in
+            var nextArray = array
+            nextArray.append(arr[index])
+            return nextArray
+        })
+    }
+    
+    //Methhod:- 6
+    func reverse6(_ arr: [Int]) -> [Int] {
+        if arr.count == 0 {
+            return arr
+        }
+        
+        var count = arr.count - 1
+        var output = [Int]()
+        
+        repeat {
+            output.append(arr[count])
+            count -= 1
+        } while count >= 0
+        
+        return output
+    }
+    
+    
 }
