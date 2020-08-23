@@ -14,11 +14,12 @@ class ViewController: UIViewController {
     let comparision = Comparision()
     let perimeterCalculation = PerimeterCalculation()
     let arrays = Arrays()
+    let strings = Strings()
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let result = arrays.getFirstValue([9,8,7,5,3,5,5,5])
+        let result = strings.helloName1("naren")
         
         print(result)
     }

@@ -19,6 +19,7 @@
 		D99810F624F22D02002D839D /* Remainder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99810F524F22D02002D839D /* Remainder.swift */; };
 		D99810F824F22DD4002D839D /* Time Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99810F724F22DD4002D839D /* Time Converter.swift */; };
 		D99810FA24F23E71002D839D /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99810F924F23E71002D839D /* Arrays.swift */; };
+		D99810FC24F24113002D839D /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99810FB24F24113002D839D /* Strings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		D99810F524F22D02002D839D /* Remainder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remainder.swift; sourceTree = "<group>"; };
 		D99810F724F22DD4002D839D /* Time Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Time Converter.swift"; sourceTree = "<group>"; };
 		D99810F924F23E71002D839D /* Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrays.swift; sourceTree = "<group>"; };
+		D99810FB24F24113002D839D /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				D99810F524F22D02002D839D /* Remainder.swift */,
 				D99810F724F22DD4002D839D /* Time Converter.swift */,
 				D99810F924F23E71002D839D /* Arrays.swift */,
+				D99810FB24F24113002D839D /* Strings.swift */,
 				D99810E124F11E73002D839D /* Main.storyboard */,
 				D99810E424F11E7F002D839D /* Assets.xcassets */,
 				D99810E624F11E7F002D839D /* LaunchScreen.storyboard */,
@@ -158,6 +161,7 @@
 			files = (
 				D99810F224F12476002D839D /* Comparision.swift in Sources */,
 				D99810E024F11E73002D839D /* ViewController.swift in Sources */,
+				D99810FC24F24113002D839D /* Strings.swift in Sources */,
 				D99810F024F1222F002D839D /* addition.swift in Sources */,
 				D99810F424F12737002D839D /* PerimeterCalculation.swift in Sources */,
 				D99810FA24F23E71002D839D /* Arrays.swift in Sources */,
