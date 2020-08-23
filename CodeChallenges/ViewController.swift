@@ -13,11 +13,12 @@ class ViewController: UIViewController {
     let addition = Addition()
     let comparision = Comparision()
     let perimeterCalculation = PerimeterCalculation()
+    let arrays = Arrays()
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let result = addition.concat2([1,2,3,4], [5,6,7,8])
+        let result = arrays.getFirstValue([9,8,7,5,3,5,5,5])
         
         print(result)
     }
