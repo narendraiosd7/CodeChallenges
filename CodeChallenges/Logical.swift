@@ -70,4 +70,35 @@ class Logical {
         }
         return true
     }
+    
+    //MARK:- Flip the Boolean
+    
+    func reverse(_ flip: Bool) -> Bool {
+        return !flip
+    }
+    
+    //Method:- 1
+    func reverse1(_ flip: Bool) -> Bool {
+        var toReturn : Bool = false
+        
+        if flip == false {
+            toReturn = true
+        }
+        
+        return toReturn
+        
+    }
+    
+    //Method:- 2
+    func reverse2(_ flip: Bool) -> Bool {
+        
+        var isReversed = Bool()
+        if flip == true {
+            isReversed = false
+        }
+        if flip == false {
+            isReversed = true
+        }
+        return isReversed
+    }
 }
