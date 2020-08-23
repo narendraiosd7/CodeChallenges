@@ -9,7 +9,7 @@
 import UIKit
 
 class Arrays {
-
+    
     //MARK:- Concatenating Two Integer Arrays
     
     //Method:- 1
@@ -17,11 +17,11 @@ class Arrays {
     func concat(_ arr1: [Int], _ arr2: [Int]) -> [Int] {
         
         var arr3: [Int] = []
-
+        
         for i in arr1 {
             arr3.append(i)
         }
-
+        
         for i in arr2 {
             arr3.append(i)
         }
@@ -138,5 +138,36 @@ class Arrays {
         return output
     }
     
+    //MARK:- Check if an Array Contains a Given Number
+    
+    func check(_ arr: [Int], _ el: Int) -> Bool {
+        return arr.contains(where: {$0 == el})
+    }
+    
+    //Method:- 1
+    func check1(_ arr: [Int], _ el: Int) -> Bool {
+        var result = false
+        for num in arr {
+            if num == el {
+                result = true
+            } else {
+                result = false
+            }
+        }
+        return result
+    }
+    
+    //Method:- 2
+    func check2(_ arr: [Int], _ el: Int) -> Bool {
+        return arr.contains(el)
+    }
+    
+    //Method:- 3
+    func check3(_ arr: [Int], _ el: Int) -> Bool {
+        for number in arr where number == el {
+            return true
+        }
+        return false
+    }
     
 }
