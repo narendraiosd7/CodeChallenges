@@ -13,10 +13,8 @@
 		D99810E324F11E73002D839D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99810E124F11E73002D839D /* Main.storyboard */; };
 		D99810E524F11E7F002D839D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D99810E424F11E7F002D839D /* Assets.xcassets */; };
 		D99810E824F11E7F002D839D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99810E624F11E7F002D839D /* LaunchScreen.storyboard */; };
-		D99810F024F1222F002D839D /* addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99810EF24F1222F002D839D /* addition.swift */; };
-		D99810F224F12476002D839D /* Comparision.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99810F124F12476002D839D /* Comparision.swift */; };
 		D99810F424F12737002D839D /* PerimeterCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99810F324F12737002D839D /* PerimeterCalculation.swift */; };
-		D99810F624F22D02002D839D /* Remainder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99810F524F22D02002D839D /* Remainder.swift */; };
+		D99810F624F22D02002D839D /* Mathematics.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99810F524F22D02002D839D /* Mathematics.swift */; };
 		D99810F824F22DD4002D839D /* Time Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99810F724F22DD4002D839D /* Time Converter.swift */; };
 		D99810FA24F23E71002D839D /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99810F924F23E71002D839D /* Arrays.swift */; };
 		D99810FC24F24113002D839D /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99810FB24F24113002D839D /* Strings.swift */; };
@@ -31,10 +29,8 @@
 		D99810E424F11E7F002D839D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D99810E724F11E7F002D839D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D99810E924F11E7F002D839D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D99810EF24F1222F002D839D /* addition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addition.swift; sourceTree = "<group>"; };
-		D99810F124F12476002D839D /* Comparision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comparision.swift; sourceTree = "<group>"; };
 		D99810F324F12737002D839D /* PerimeterCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerimeterCalculation.swift; sourceTree = "<group>"; };
-		D99810F524F22D02002D839D /* Remainder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remainder.swift; sourceTree = "<group>"; };
+		D99810F524F22D02002D839D /* Mathematics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mathematics.swift; sourceTree = "<group>"; };
 		D99810F724F22DD4002D839D /* Time Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Time Converter.swift"; sourceTree = "<group>"; };
 		D99810F924F23E71002D839D /* Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrays.swift; sourceTree = "<group>"; };
 		D99810FB24F24113002D839D /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
@@ -73,10 +69,8 @@
 				D99810DB24F11E73002D839D /* AppDelegate.swift */,
 				D99810DD24F11E73002D839D /* SceneDelegate.swift */,
 				D99810DF24F11E73002D839D /* ViewController.swift */,
-				D99810EF24F1222F002D839D /* addition.swift */,
-				D99810F124F12476002D839D /* Comparision.swift */,
 				D99810F324F12737002D839D /* PerimeterCalculation.swift */,
-				D99810F524F22D02002D839D /* Remainder.swift */,
+				D99810F524F22D02002D839D /* Mathematics.swift */,
 				D99810F724F22DD4002D839D /* Time Converter.swift */,
 				D99810F924F23E71002D839D /* Arrays.swift */,
 				D99810FB24F24113002D839D /* Strings.swift */,
@@ -159,14 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D99810F224F12476002D839D /* Comparision.swift in Sources */,
 				D99810E024F11E73002D839D /* ViewController.swift in Sources */,
 				D99810FC24F24113002D839D /* Strings.swift in Sources */,
-				D99810F024F1222F002D839D /* addition.swift in Sources */,
 				D99810F424F12737002D839D /* PerimeterCalculation.swift in Sources */,
 				D99810FA24F23E71002D839D /* Arrays.swift in Sources */,
 				D99810DC24F11E73002D839D /* AppDelegate.swift in Sources */,
-				D99810F624F22D02002D839D /* Remainder.swift in Sources */,
+				D99810F624F22D02002D839D /* Mathematics.swift in Sources */,
 				D99810F824F22DD4002D839D /* Time Converter.swift in Sources */,
 				D99810DE24F11E73002D839D /* SceneDelegate.swift in Sources */,
 			);
