@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let result = strings.helloName1("naren")
+        let result = strings.isEmpty3("nar")
         
         print(result)
     }
