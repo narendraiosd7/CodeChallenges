@@ -73,4 +73,10 @@ class Strings {
     func concatName2(_ firstName: String, _ lastName: String) -> String {
         return "\(lastName), \(firstName)"
     }
+    
+    //MARK:- Check String for Spaces
+    
+    func hasSpaces(_ str: String) -> Bool {
+        return str.contains(" ")
+    }
 }
