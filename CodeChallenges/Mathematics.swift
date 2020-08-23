@@ -85,4 +85,10 @@ class Mathematics {
         return a + b < 100
     }
     
+    //MARK:- Slice of Pie
+    
+    func equalSlices(_ total: Int, _ people: Int, _ each: Int) -> Bool {
+        return people*each <= total
+    }
+    
 }
