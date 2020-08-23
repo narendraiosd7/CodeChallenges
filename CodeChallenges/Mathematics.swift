@@ -73,4 +73,9 @@ class Mathematics {
         return num % 5 == 0
     }
     
+    //MARK:- Area of a Triangle
+    
+    func triArea(_ base: Int, _ height: Int) -> Int {
+        return Int(base * height) / 2
+    }
 }
