@@ -68,4 +68,10 @@ class Arrays {
         
     }
     
+    //MARK:-1 Reverse an Array
+    
+    func reverse(_ arr: [Int]) -> [Int] {
+        return arr.reversed()
+    }
+    
 }
