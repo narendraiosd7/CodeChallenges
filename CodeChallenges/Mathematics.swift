@@ -66,4 +66,11 @@ class Mathematics {
         return num % 100 == 0 ? true : false
     }
     
+    //MARK:- Check if an Integer is Divisible By Five
+    
+    //Method:- 1
+    func divisibleByFive(_ num: Int) -> Bool {
+        return num % 5 == 0
+    }
+    
 }
