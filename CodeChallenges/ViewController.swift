@@ -10,8 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    let addition = Addition()
-    let comparision = Comparision()
     let perimeterCalculation = PerimeterCalculation()
     let arrays = Arrays()
     let strings = Strings()
@@ -19,7 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let result = strings.isEmpty3("nar")
+        let result = strings.concatName("Narendra", "vadde")
         
         print(result)
     }

@@ -57,6 +57,20 @@ class Strings {
         
     }
     
+    //MARK:- Concatenate First and Last Name into One String
     
+    //Methods
+    func concatName(_ firstName: String, _ lastName: String) -> String {
+        return "\("\(lastName), \(firstName)")"
+    }
     
+    //Method:- 1
+    func concatName1(_ firstName: String, _ lastName: String) -> String {
+        return lastName + ", " + firstName;
+    }
+    
+    //Method:- 2
+    func concatName2(_ firstName: String, _ lastName: String) -> String {
+        return "\(lastName), \(firstName)"
+    }
 }
