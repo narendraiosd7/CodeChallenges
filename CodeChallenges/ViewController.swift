@@ -16,9 +16,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        let result = addition.addition(20, 20)
-//        let result = comparision.lessThanOrEqualToZero(5)
-        let result = perimeterCalculation.findPerimeter(20, 30)
+
+        let result = addition.concat2([1,2,3,4], [5,6,7,8])
+        
         print(result)
     }
     
