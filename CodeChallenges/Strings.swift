@@ -79,4 +79,35 @@ class Strings {
     func hasSpaces(_ str: String) -> Bool {
         return str.contains(" ")
     }
+    
+    //MARK:- Is the Word Singular or Plural?
+    
+    func isPlural(_ word: String) -> Bool {
+        return word.hasSuffix("s")
+    }
+    
+    //Method:- 1
+    func isPlural1(_ word: String) -> Bool {
+        return word.hasSuffix("s")
+    }
+    
+    //Method:- 2
+    func isPlural2(_ word: String) -> Bool {
+       var str = word
+       return str.popLast() == "s"
+    }
+    
+    //Method:- 3
+    func isPlural3(_ word: String) -> Bool {
+        let x = Array(word)
+        if x[x.endIndex-1] == "s"{
+            return true
+        }
+        return false
+    }
+    
+    //Method:- 4
+    func isPlural4(_ word: String) -> Bool {
+        return word[word.index(before: word.endIndex)] == "s"
+    }
 }

@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let result = strings.concatName("Narendra", "vadde")
+        let result = strings.isPlural4("strings")
         
         print(result)
     }
